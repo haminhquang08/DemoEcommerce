@@ -1,0 +1,39 @@
+.cart{
+    position: relative;
+    border: 1px solid black;
+    transform: scaleY(0.98);
+    border-radius: 5px;
+}
+
+.amount span{
+    color: red;
+    padding: 0 20px;
+}
+
+.amount button{
+    width: 38px;
+    height: 38px;
+    border: 1px solid #777;
+    border-radius: 7px;
+}
+
+.delete{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: red;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.total{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total h4{
+    color: black;
+}

@@ -1,0 +1,37 @@
+.history-page{
+    overflow: auto;
+}
+
+.history-page h3{
+    text-align: center;
+    margin: 20px;
+    text-transform: inherit;
+    letter-spacing: 2px;
+}
+
+.history-page table{
+    margin: auto;
+    width: 100%;
+}
+
+.history-page table, th, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+table a{
+    color: black;
+}
+
+.history-page img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    
+}

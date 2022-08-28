@@ -1,0 +1,70 @@
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    justify-items: center;
+    margin: 20px 0px;
+    background: white;
+}
+
+/* ----------------Product Item----------------- */
+@import url("../utils/ProductItem/productItem.css");
+
+.delete-all{
+    text-align: right;
+    margin: 20px;
+}
+
+.delete-all input{
+    height: 25px;
+    width: 25px;
+    transform: translate(5px);
+    margin: 0 15px;
+}
+
+.delete-all span{
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.delete-all button{
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+/* ------------------ Filetr Menu--------------------- */
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around   ;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.filter_menu select, input{
+    border: 1px solid #ddd;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+    border-radius: 7px;
+}
+.filter_menu input{
+    flex: 1;
+    margin: 0 10px;
+} 
+/* ---------------------Load More------------------------ */
+.load_more{
+    text-align: center;
+}
+
+.load_more button{
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-transform: capitalize;
+}
